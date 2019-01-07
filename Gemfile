@@ -12,6 +12,7 @@ gem "bootsnap", ">= 1.1.0", require: false
 
 gem "rack-cors"
 gem "grape"
+gem "grape-rails-routes"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
